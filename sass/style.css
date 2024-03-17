@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  height: 127.06px;
+}
+body header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .logo img {
+  width: 30px;
+}
+body header .logo h1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-left: 6px;
+}
+body header button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: transparent;
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+body header button:hover {
+  box-shadow: 0px 0px 10px 1px hsl(321, 100%, 78%);
+}
+body main {
+  width: 80%;
+  margin: 0 auto 100px auto;
+}
+body main .landing {
+  height: calc(100vh - 127.05px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+body main .landing h2 {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+body main .landing p {
+  width: 500px;
+  text-align: center;
+  margin: 10px 0 35px 0;
+  color: hsl(192, 100%, 9%);
+  font-weight: 400;
+}
+body main .landing button {
+  width: 320px;
+  padding: 20px 0;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 10px 10px 10px hsl(207, 100%, 98%);
+}
+body main .mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+body main .mockup img {
+  width: 100%;
+}
+body main .stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+body main .stats div img {
+  width: 40px;
+}
+body main .stats div .number {
+  display: block;
+  font-size: 75px;
+  font-weight: bold;
+}
+body main .stats div p {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+}
+body section.grow, body section.flowing, body section.users {
+  width: 100%;
+  background-color: hsl(207, 100%, 98%);
+  padding: 50px 0;
+}
+body section.grow .container, body section.flowing .container, body section.users .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+body section.grow .container .info, body section.flowing .container .info, body section.users .container .info {
+  flex: 1;
+}
+body section.grow .container .info h3, body section.flowing .container .info h3, body section.users .container .info h3 {
+  font-size: 30px;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+body section.grow .container .info p, body section.flowing .container .info p, body section.users .container .info p {
+  padding: 20px 55px 0 0;
+  font-size: 15px;
+}
+body section.grow .container .image, body section.flowing .container .image, body section.users .container .image {
+  flex: 1;
+}
+body section.grow .container .image img, body section.flowing .container .image img, body section.users .container .image img {
+  width: 100%;
+}
+body section.flowing {
+  background-color: transparent;
+}
+body section.flowing .info {
+  padding-left: 100px;
+}
+body section.build {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+body section.build h2 {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+body section.build button {
+  width: 320px;
+  padding: 20px 0;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px 10px hsl(207, 100%, 98%);
+  margin-top: 40px;
+}
+body footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 50px 0;
+}
+body footer .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .container .left {
+  flex: 1;
+}
+body footer .container .left .logo {
+  display: flex;
+  align-items: center;
+}
+body footer .container .left .logo img {
+  width: 30px;
+}
+body footer .container .left .logo h1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-left: 6px;
+  color: white;
+}
+body footer .container .left p {
+  margin: 25px 0;
+  color: #fff;
+  width: 350px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body footer .container .left .contact div {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+body footer .container .left .contact div img {
+  margin-right: 10px;
+}
+body footer .container .left .contact div span {
+  color: hsl(207, 100%, 98%);
+  font-size: 14px;
+}
+body footer .container .left .social {
+  margin-top: 50px;
+}
+body footer .container .left .social i {
+  margin: 0 30px 0 0;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body footer .container .left .social .face:hover {
+  color: #1877f2;
+}
+body footer .container .left .social .insta:hover {
+  color: #e1306c;
+}
+body footer .container .left .social .twitt:hover {
+  color: #1da1f2;
+}
+body footer .container .right {
+  flex: 1;
+}
+body footer .container .right h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+body footer .container .right p {
+  margin: 30px 0;
+  color: hsl(207, 100%, 98%);
+  width: 80%;
+  line-height: 1.4;
+}
+body footer .container .right form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+body footer .container .right form input[type=email] {
+  padding: 13px;
+  width: 60%;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+body footer .container .right form input[type=email].error {
+  border: 1px solid red;
+}
+body footer .container .right form span {
+  position: absolute;
+  bottom: -24px;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+body footer .container .right form input[type=submit] {
+  padding: 13px;
+  width: 30%;
+  border-radius: 6px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 400px) {
+  body header {
+    padding: 20px;
+    height: 100px;
+  }
+  body header .logo img {
+    width: 25px;
+  }
+  body header .logo h1 {
+    font-size: 28px;
+  }
+  body header button {
+    padding: 8px 18px;
+  }
+  body main {
+    width: 90%;
+  }
+  body main .landing h2 {
+    font-size: 26px;
+  }
+  body main .landing p {
+    width: 300px;
+    font-size: 14px;
+  }
+  body main .landing button {
+    width: 250px;
+    font-size: 12px;
+    padding: 15px 0;
+  }
+  body section.build h2 {
+    font-size: 26px;
+  }
+  body section.build button {
+    width: 250px;
+  }
+}
+@media (max-width: 680px) {
+  body main .landing p {
+    width: 300px;
+  }
+  body main .stats {
+    flex-direction: column;
+  }
+  body main .stats div .number {
+    font-size: 50px;
+  }
+  body main .stats div p {
+    text-align: left;
+  }
+  body main .stats .statis-1 {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 860px) {
+  body section.grow .container, body section.users .container {
+    width: 90% !important;
+    flex-direction: column-reverse !important;
+    text-align: center;
+  }
+  body section.grow .container .info, body section.users .container .info {
+    margin-top: 50px;
+  }
+  body section.grow .container .info h3, body section.users .container .info h3 {
+    font-size: 25px;
+  }
+  body section.grow .container .info p, body section.users .container .info p {
+    padding: 20px 0 0 0;
+  }
+  body section.flowing .container {
+    flex-direction: column;
+    text-align: center;
+    width: 90% !important;
+  }
+  body section.flowing .container .info {
+    padding: 0 !important;
+    margin-top: 50px;
+  }
+  body section.flowing .container .info p {
+    padding: 20px 0 0 0;
+  }
+  body section.flowing .container .info h3 {
+    font-size: 25px;
+  }
+  body footer .container {
+    flex-direction: column-reverse;
+    width: 90% !important;
+  }
+  body footer .container .left {
+    margin-top: 50px;
+  }
+  body footer .container .left p {
+    width: 85% !important;
+  }
+  body footer .container .right form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  body footer .container .right form input[type=email] {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  body footer .container .right form input[type=submit] {
+    flex: 1;
+    align-self: flex-end;
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
